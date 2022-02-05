@@ -35,7 +35,7 @@ body {
     font-weight: bold;
 }
 .content{
-    background-color: rgba(51, 86, 107, 0.9);
+    background-color: rgba(51, 86, 107, 0.8);
     width: 85%;
     margin: auto;
     
@@ -70,4 +70,17 @@ span.star{
     border-style: none;
     padding: 2px;
     margin-right: 15px;
+}
+.first{
+    margin-top: 25px;
+}
+.quizhead{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C4C4C4;
+    padding: 0 8%;
+    
+}
+.quizhead h3, .quizhead h5{
+    font-weight: bold;
 }
