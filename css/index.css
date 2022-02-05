@@ -5,7 +5,6 @@
     font-family: 'poppins';
 }
 body {
-    background-image: url('images/Code-setup.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,9 +14,11 @@ body {
     height: 70px;
     color: #ffffff;
     background-color: #2AA1EB;
-    position: fixed;
     width: 100%;
     padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+
     
 }
 .logo h1{
@@ -26,13 +27,6 @@ body {
     font-weight: bold;
     font-size: 32px;
 }
-.logo{
-    float: left;
-}
-.navbar{
-    float: right;
-    background-color: #2AA1EB;
-}
 .navbar ul li{
     padding: 15px;
 }
@@ -40,4 +34,26 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+}
+.content{
+    background-color: rgba(51, 86, 107, 0.9);
+    width: 85%;
+    margin: auto;
+    
+}
+.content h2{
+    color: #FFED78;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: dashed none dashed none;
+    border-color: #ABABAB;
+    border-width: 4px;
+}
+.info p{
+    padding-top: 10px;
 }
