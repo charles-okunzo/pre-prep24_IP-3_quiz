@@ -38,6 +38,7 @@ body {
     background-color: rgba(51, 86, 107, 0.8);
     width: 85%;
     margin: auto;
+    height: 100%;
     
 }
 .content h2{
@@ -126,5 +127,8 @@ span.star{
 .startbtn{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin-top: 30px;
+}
+#hiddendiv{
+    display: none;
 }
