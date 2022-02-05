@@ -115,3 +115,16 @@ span.star{
     text-decoration: none;
     color: #ffffff;
 }
+.startbtn button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #D67D00;
+    border-style: none;
+    border-radius: 5px;
+}
+.startbtn{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
