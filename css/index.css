@@ -2,4 +2,34 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'poppins';
+}
+.header{
+    height: 80px;
+    color: #ffffff;
+    background-color: #2AA1EB;
+    position: fixed;
+    width: 100%;
+    padding-right: 100px;
+    
+}
+.logo h1{
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: right;
+}
+.navbar ul li{
+    padding: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
 }
