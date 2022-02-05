@@ -89,3 +89,13 @@ span.star{
     background-color: #FFED78;
     padding: 10px 30px;
 }
+#submit{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #D67D00;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
