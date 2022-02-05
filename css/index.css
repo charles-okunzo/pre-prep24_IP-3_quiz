@@ -97,5 +97,21 @@ span.star{
     border-style: none;
     border-radius: 5px;
     margin-left: 20px;
+    margin-bottom: 25px;
 
+}
+.footer{
+    background-color: #13496B;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+}
+.footer ul li{
+    padding: 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
 }
