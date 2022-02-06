@@ -28,5 +28,8 @@ function myResult()
     if (correctAnswers8=="then"){myScore++;}
     if (correctAnswers9=="while10"){myScore++;}
     if (correctAnswers10=="while"){myScore++;}
-    document.write(myScore);
+    var showContent= document.getElementById("hiddendiv");
+     showContent.style.display="none";
+     var textScore= document.getElementById("textScore");
+     textScore.textContent= myScore;
 }
