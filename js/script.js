@@ -31,15 +31,22 @@ function myResult()
     var showContent= document.getElementById("hiddendiv");
     var textScore=document.getElementById("textScore")
         textScore.style.display= "block";
-        textScore.style.background="red";
         textScore.style.color="white";
 
      showContent.style.display="none";
      var textScore= document.getElementById("textScore");
     
      if (myScore>=8) {
-         textScore.textContent="Congratulations! Your score is "+ Math.floor(myScore/10*100) + "%. You passed.";
-     } else {
-         
-     }
+         textScore.innerHTML="TEST COMPLETED! <br>Congratulations!<b>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You passed!";
+         textScore.style.background="green";
+     } else if(myScore>=5){
+        textScore.innerHTML="TEST COMPLETED! <br>Congratulations!<br> Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored above average. Work harder!";
+        textScore.style.background="yellow";
+        textScore.style.color="black";
+    } else{
+        
+        textScore.innerHTML="TEST COMPLETED! <br>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored below the average mark. Kindly redo the test!";
+        textScore.style.background="red";
+     
+    }
 }
