@@ -4,7 +4,8 @@ function showMydiv()
     showContent.style.display="block"
     var hideButton=document.getElementById("show");
     hideButton.style.display="none"
-    
+    var myTextScore=document.getElementById("textScore")
+    myTextScore.style.display="none";
 }
 function myResult()
 {
