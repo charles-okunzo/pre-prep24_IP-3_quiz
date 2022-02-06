@@ -35,6 +35,10 @@ This website is designed to conduct and administer examination to students of th
 
 [Go Back to the top](#portfolio)
 
+## Links
+Link to projrct design on figma. [Here](https://www.figma.com/file/hpWAIDSRTgCkuJGQbuV434/CodeClub-Project-Design?node-id=40%3A300)
+
+
 ## Licence
 
 MIT License
