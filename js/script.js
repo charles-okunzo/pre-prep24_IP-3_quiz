@@ -47,7 +47,7 @@ function myResult()
         textScore.style.color="black";
     } else{
         
-        textScore.innerHTML="TEST COMPLETED! <br>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored below the average mark. Kindly reattempt the test! <input type='button' value='REATTEMPT' id='submit' onclick='showMydiv()'>";
+        textScore.innerHTML="TEST COMPLETED! <br>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored below the average mark. Kindly reattempt the test! <br> <input type='button' value='REATTEMPT' id='submit' onclick='showMydiv()'>";
         textScore.style.background="red";
     }
 }

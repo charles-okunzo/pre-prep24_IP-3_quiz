@@ -159,8 +159,15 @@ span.star{
     .navbar{
         display: none;
     }
+    #textScore{
+        font-size: 25px;
+    }
     body{
         overflow-x: hidden;
+    }
+    .info p{
+        font-size: 15px;
+        margin: auto 10px;
     }
     .logo h1{
         display: inline;
