@@ -29,7 +29,17 @@ function myResult()
     if (correctAnswers9=="while10"){myScore++;}
     if (correctAnswers10=="while"){myScore++;}
     var showContent= document.getElementById("hiddendiv");
+    var textScore=document.getElementById("textScore")
+        textScore.style.display= "block";
+        textScore.style.background="red";
+        textScore.style.color="white";
+
      showContent.style.display="none";
      var textScore= document.getElementById("textScore");
-     textScore.textContent= myScore;
+    
+     if (myScore>=8) {
+         textScore.textContent="Congratulations! Your score is "+ Math.floor(myScore/10*100) + "%. You passed.";
+     } else {
+         
+     }
 }

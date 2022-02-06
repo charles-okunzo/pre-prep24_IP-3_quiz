@@ -42,7 +42,7 @@ body {
 }
 .content{
     background-color: rgba(51, 86, 107, 0.8);
-    width: 85%;
+    width: 80%;
     margin: auto;
     height: auto;
     
@@ -137,5 +137,15 @@ span.star{
     height: 60vh;
 }
 #hiddendiv{
+    display: none;
+}
+#textScore{
+    text-align: center;
+    height: 
+    65vh;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 36px;
     display: none;
 }
