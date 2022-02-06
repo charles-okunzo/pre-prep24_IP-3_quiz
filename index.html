@@ -20,7 +20,7 @@
                 <li class="nav-items"><a href="#" class="nav-links">Home</a></li>
                 <li class="nav-items"><a href="#" class="nav-links">About</a></li>
                 <li class="nav-items"><a href="#" class="nav-links">Contacts</a></li>
-                <li class="nav-items"><a href="#" class="nav-links">Students Portal</a></li>
+                <li class="nav-items"><a href="#" class="nav-links"><button>Students Portal</button></a></li>
             </ul>
         </div>
     </div>
@@ -31,8 +31,10 @@
            <p>Due: 3rd March 2021, 1200hrs</p>
             <p>Total score: 100%</p>
        </div>
-       <div class="startbtn">
-           <button onclick="showMydiv()" id="show">START QUIZ</button>
+       <div class="startbtn" id="show">
+        <div>
+            <button onclick="showMydiv()">START QUIZ</button>
+        </div>
        </div>
       <div id="hiddendiv" onload="hideMydiv()">
         <div class="details">
@@ -176,7 +178,7 @@
                  <p><input type="radio" name="quiz10" value="while10"> &lt--This is a commment--&gt</p>
              </div>
          </div>
-         <input type="button" value="SUBMIT" id="submit">
+         <input type="button" value="SUBMIT" id="submit" onclick="myResult()">
         </form>
       </div>
        

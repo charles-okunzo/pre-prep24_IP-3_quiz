@@ -27,18 +27,24 @@ body {
     font-size: 32px;
 }
 .navbar ul li{
-    padding: 15px;
+    padding: 0 15px;
 }
 .navbar ul li a{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
+.nav-links button{
+    padding: 5px 10px;
+    border-style: none;
+    color: #2AA1EB;
+    font-weight: bold;
+}
 .content{
     background-color: rgba(51, 86, 107, 0.8);
     width: 85%;
     margin: auto;
-    height: 100%;
+    height: auto;
     
 }
 .content h2{
@@ -128,6 +134,7 @@ span.star{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    height: 60vh;
 }
 #hiddendiv{
     display: none;
