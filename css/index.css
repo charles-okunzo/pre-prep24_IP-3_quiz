@@ -54,7 +54,7 @@ body {
 }
 .info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #ffffff;
     font-weight: bold;
     border-style: dashed none dashed none;
@@ -149,4 +149,51 @@ span.star{
     font-size: 32px;
     display: none;
     padding: 30px;
+}
+.dat{
+    border-style: solid;
+    border-width: 0 3px 0 3px;
+    padding: 0 25px;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .logo h1{
+        display: inline;
+    }
+    .footer{
+        display: block;
+        padding: 0;
+    }.content{
+        width: 100%;
+    }
+    .social ul{
+        display: flex;
+        justify-content: center;
+    }
+    .copy, .social{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 5px;
+    }
+    .logo img{
+        height: 40px;
+    }
+    .logo h1{
+        font-size: 26px;
+    }
+    .logo{
+        padding: 15px 0;
+    }
+    .startbtn{
+        height: 50vh;
+    }
+    .details input{
+        display: block;
+    }
 }
