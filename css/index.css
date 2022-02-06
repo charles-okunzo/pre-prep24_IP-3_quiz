@@ -39,6 +39,7 @@ body {
     border-style: none;
     color: #2AA1EB;
     font-weight: bold;
+    border-radius: 5px;
 }
 .content{
     background-color: rgba(51, 86, 107, 0.8);

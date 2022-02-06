@@ -4,6 +4,7 @@ function showMydiv()
     showContent.style.display="block"
     var hideButton=document.getElementById("show");
     hideButton.style.display="none"
+    
 }
 function myResult()
 {
@@ -37,7 +38,7 @@ function myResult()
      var textScore= document.getElementById("textScore");
     
      if (myScore>=8) {
-         textScore.innerHTML="TEST COMPLETED! <br>Congratulations!<b>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You passed!";
+         textScore.innerHTML="TEST COMPLETED! <br>Congratulations!<br> Your score is "+ Math.floor(myScore/10*100) + "%.<br> You passed!";
          textScore.style.background="green";
      } else if(myScore>=5){
         textScore.innerHTML="TEST COMPLETED! <br>Congratulations!<br> Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored above average. Work harder!";
@@ -45,8 +46,7 @@ function myResult()
         textScore.style.color="black";
     } else{
         
-        textScore.innerHTML="TEST COMPLETED! <br>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored below the average mark. Kindly redo the test!";
+        textScore.innerHTML="TEST COMPLETED! <br>Your score is "+ Math.floor(myScore/10*100) + "%.<br> You scored below the average mark. Kindly reattempt the test! <input type='button' value='REATTEMPT' id='submit' onclick='showMydiv()'>";
         textScore.style.background="red";
-     
     }
 }
